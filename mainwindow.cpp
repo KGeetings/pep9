@@ -772,6 +772,7 @@ void MainWindow::on_actionFile_Print_Object_triggered()
     }
 }
 
+//Fix this to print the listing for both Windows and Mac
 void MainWindow::on_actionFile_Print_Listing_triggered()
 {
     QTextDocument document(assemblerListingPane->toPlainText(), this);
